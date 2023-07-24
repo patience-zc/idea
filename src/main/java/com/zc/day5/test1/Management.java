@@ -73,7 +73,9 @@ public class Management {
                     break;
                 case 4:
                     for (int j = 0; j <= count; j++) {
-                        vehicles[j].getName();
+                        if(vehicles[j] instanceof Train){
+                            vehicles[j].toString();
+                        }
                     }
                     break;
                 case 5:
